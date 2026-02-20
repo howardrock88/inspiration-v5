@@ -162,7 +162,7 @@
                 </div>
                 <div>
                     <label class="block text-sm font-medium mb-1">GitHub Repo</label>
-                    <input type="text" id="githubRepo" class="w-full p-3 bg-gray-100 rounded-xl" placeholder="inspiration-tracker">
+                    <input type="text" id="githubRepo" class="w-full p-3 bg-gray-100 rounded-xl" placeholder="inspiration-v5">
                 </div>
                 <button onclick="saveSettings()" class="w-full btn-primary px-4 py-3 rounded-xl text-white font-medium">保存设置</button>
             </div>
@@ -173,7 +173,7 @@
         // Config
         const GITHUB = {
             owner: localStorage.getItem('github_owner') || 'howardrock88',
-            repo: localStorage.getItem('github_repo') || 'inspiration-tracker',
+            repo: localStorage.getItem('github_repo') || 'inspiration-v5',
             path: 'inspirations.json'
         };
         
